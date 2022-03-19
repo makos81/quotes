@@ -1,8 +1,0 @@
-apiVersion: v2
-data:
-  APP_NAME: "Quotes"
-kind: ConfigMap
-metadata:
-  name: quotes-k8s-config
-  labels:
-    app: quotes-k8s
